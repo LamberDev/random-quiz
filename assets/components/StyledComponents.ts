@@ -229,3 +229,8 @@ export const StyledScoreWrapper: StyledComponent<'div', any, {}> = styled.div`
 	flex-direction: column;
 	margin-bottom: 1.25rem;
 `
+
+export const StyledCopyRight: StyledComponent<'p', any, {}> = styled.p`
+	color: #ffffff;
+	font-size: small;
+`

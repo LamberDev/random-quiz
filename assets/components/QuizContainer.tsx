@@ -8,7 +8,8 @@ import {
     StyledQuizContentContainer,
     StyledQuizMainContainer,
     NextButton,
-    QuizQuestionContent
+    QuizQuestionContent,
+    StyledCopyRight
 } from "./StyledComponents"
 import ApplicationStaticIcon from './../icons/undraw_adventure_4hum 1.svg';
 import { CreateQuestion } from './../methods/functions';
@@ -127,7 +128,7 @@ export const QuizMainContainer: React.FC<IProps> = ({ isLoading }) => {
                     </StyledQuizContentContainer>
                 }
             </StyledQuizMainContainer>
-
+            <StyledCopyRight>© Developed by LamberDev ✌😊</StyledCopyRight>
         </AnimatePresence>
     )
 }

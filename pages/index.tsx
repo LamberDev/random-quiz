@@ -30,7 +30,6 @@ const Home: NextPage = () => {
 					isLoading={isLoading}
 				/>
 			</AnimatePresence>
-
 		</div>
 	)
 }
